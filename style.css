@@ -1,0 +1,112 @@
+/*Custom style*/
+@import url('https://fonts.googleapis.com/css?family=Open+Sans:400,600,700|Playfair+Display:400,700|Roboto:400,500,700');
+* {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  outline: none;
+ }
+ html, body {
+  min-height: 100%;
+}
+body {
+  background: #fff;
+  font-family: 'Open Sans', sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  overflow-x: hidden;
+}
+/*---------------------------------------
+   Typorgraphy              
+-----------------------------------------*/
+@import url(https://fonts.googleapis.com/css?family=Baloo+Tammudu);
+body {
+    background: #8c12a9;
+    color: #ffffff; 
+}
+
+* {
+    font-family: 'Baloo Tammudu', cursive;
+}
+
+.jumbotron {
+    background: #8c12a9;
+    color: #ffffff;
+}
+
+h3 {
+    font-family: 'Baloo Tammudu', cursive;
+    color: #ffffff;
+}
+.container-wrapper {
+  display: flex;
+}
+.shortener-container {
+  display: flex;
+  margin: auto;
+  max-width: 480px;
+  box-shadow: 0px 0px 4px #444;
+  background: #924da3;
+  border-radius: 5px;
+}
+.shortener {
+  padding: 10px 20px;
+  min-width: 380px;
+  min-height: 80px;
+}
+.shortener .logo-wrap {
+  color: #fff;
+  font-size: 28px;
+  margin: 10px 0px;
+  text-transform: uppercase;
+}
+.shortener .logo {
+  margin-bottom: 5px;
+}
+.shortener input[type=text] {
+  background: transparent;
+  border: 2px solid #fff;
+  color: #fff;
+}
+.shortener input[type=text]:focus {
+  box-shadow: 0px 0px 2px #fff;
+}
+.shortener .error-message {
+  color: #fff;
+  text-align: left;
+  padding: 5px 0px;
+}
+.shortener button[type=submit] {
+  width: 100%;
+  margin: 10px 0px;
+  height: 40px;
+  background: none;
+  border: 2px solid #fff;
+  color: #fff;
+  text-transform: uppercase;
+  font-weight: bold;
+}
+.shortener button[type=submit]:hover,
+.shortener button[type=submit]:focus {
+  box-shadow: 0px 0px 2px #fff;
+}
+.shortener .latest {
+  list-style: none;
+  margin-top: 10px;
+  margin-left: 10px;
+  padding: 0px;
+}
+.shortener .latest .latest-desc {
+  color: #fff;
+  font-size: 18px;
+  font-weight: bold;
+  margin-bottom: 5px;
+}
+.shortener .latest a {
+  color: #fff;
+}
+.shortener .latest a i {
+  position: relative;
+  font-size: 9px;
+  top: -4px;
+}

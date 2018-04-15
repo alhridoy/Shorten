@@ -1,0 +1,68 @@
+.img-bordered {
+    border: 3px solid #E8E8E8;
+    padding:2px;
+}
+html,
+body {
+    font-family: 'Ubuntu', sans-serif;
+    font-weight:400;
+    color:#6f6f6f; 
+    overflow-x:hidden;
+    -webkit-font-smoothing: antialiased;
+}
+
+h1, h2, h3, h4, h5, h6 {
+    font-family: 'Ubuntu', sans-serif;
+    font-weight:normal;
+}
+
+ul {
+    margin:0;
+    padding:0;
+    list-style:none;
+}
+
+a {
+    font-family: 'Ubuntu', sans-serif;
+    color: #00a651;
+}
+
+a, 
+a:hover,
+a:focus,
+input:focus {
+    text-decoration:none;
+    outline: none;
+    color:#02743a;
+}
+
+img {
+    max-width: 100%;
+}
+
+section {
+  min-width: 100%;
+  position: relative;
+  width: 100%;
+  padding: 50px 0;
+}
+
+a:active,
+a:focus, button:focus, .btn:focus,
+input:focus, textarea:focus, select:focus, .form-control:focus {
+    outline: none !important;
+    text-decoration: none !important;
+    box-shadow: none !important;
+}
+
+
+/* custom css*/
+
+.page-wrapper{
+
+    position: relative;
+    margin: 0 auto;
+    min-width: 300px;
+    width: 100%;
+}
+
